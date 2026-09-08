@@ -35,11 +35,6 @@ Always verify the target Data Residency region before initiating a migration.
 For AU (Australia) and DE (Germany), confirm the latest migration and upgrade support status with the Migration or Product team before proceeding.
 Do not confirm migration support for regions that have not yet been internally validated.
 
-SECTION: Migration Timeline
-
-Migration Deadline:
-The deadline for migrating data from Zephyr Squad Cloud to Zephyr Essential, Zephyr Standard, and Zephyr Advanced Cloud is December 2027.
-
 
 
 
