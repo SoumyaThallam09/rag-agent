@@ -1,0 +1,56 @@
+MIGRATION TROUBLESHOOTING
+
+This is the tool used for migrating data between Zephyr Squad Cloud to Zephyr Essential, Standard, and Advanced cloud versions.
+
+A migration can fail because of connectivity issues.
+
+Currently, we do not support migrating data between two different Jira instances. The Squad-to-Essential or Squad-to-Standard migration is supported only within the same Jira Cloud instance.
+
+During the migration process, the tool first checks whether a project contains any Zephyr Squad test cases. If no Squad test cases are found, the migration tool automatically marks the project migration as SUCCESS, indicating that the project does not contain any Squad test cases.
+
+Therefore, if such projects contain test cycles or executions but no Squad test cases, those test cycles and executions will not be migrated and may be lost during the migration process.
+
+Migration Scope: 
+
+Zephyr Squad → Zephyr Essential : 
+Supported Data Residency: US
+Migration Scope: Project-level migration or Full migration
+Data Residency Support: only US
+
+Zephyr Squad Cloud → Zephyr : 
+Supported Data Residency: US, EU(UI option not available)
+Migration Scope: Project-level migration or Full migration
+AU (Australia)	Data Residency is available, but migration/upgrade not supported yet - Tentatively expected date is 2027 Q2
+DE (Germany)	Data Residency is available, but migration/upgrade not supported yet - Tentatively expected date is 2027 Q2
+
+
+
+Important: Before starting the migration, Zephyr plugin needs to be installed in the Cloud environment and, if it is installed, please verify  whether the Zephyr app contains any existing data.
+In particular, check whether the same project keys are being used for projects in both Zephyr Squad and Zephyr.
+If the same project key exists in both Zephyr Squad and Zephyr, the migration will overwrite the existing Zephyr data in the target project.
+Therefore, always verify the target environment and existing Zephyr data before initiating the migration.
+
+Important Considerations
+Always verify the target Data Residency region before initiating a migration.
+For AU (Australia) and DE (Germany), confirm the latest migration and upgrade support status with the Migration or Product team before proceeding.
+Do not confirm migration support for regions that have not yet been internally validated.
+
+SECTION: Migration Timeline
+
+Migration Deadline:
+The deadline for migrating data from Zephyr Squad Cloud to Zephyr Essential, Zephyr Standard, and Zephyr Advanced Cloud is December 2027.
+
+
+
+
+OFFICIAL SMARTBEAR DOCUMENTATION
+
+Feature Comparison:
+https://support.smartbear.com/zephyr/docs/en/zephyr-editions-feature-comparison.html
+
+Upgrade Guide:
+https://support.smartbear.com/zephyr/docs/en/zephyr-squad-to-zephyr-upgrade-guide.html
+
+Data Transfer:
+https://support.smartbear.com/zephyr/docs/en/zephyr-squad-to-zephyr-upgrade-guide/data-transfer.html
+

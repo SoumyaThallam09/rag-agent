@@ -1,0 +1,1610 @@
+
+
+================================================================================
+SOURCE: https://support.smartbear.com/zephyr/docs/en/zephyr-editions-feature-comparison.html
+================================================================================
+
+Zephyr Editions Feature Comparison | Zephyr Documentation
+Skip to main content
+Toggle navigation
+Welcome to the Zephyr Documentation
+Zephyr Editions Feature Comparison
+Our Roadmap
+Release Notes
+Squad to Zephyr Upgrade Guide
+Migrate to Zephyr
+Feature Comparison
+Product Comparison
+Data Transfer
+Solution for Unmigrated Data
+Get Started
+Installing the App
+Enabling the App
+Zephyr Glossary
+Workflow Strategies
+Linking Jira Fields
+Configuration
+Advanced Customization Options
+Grid View
+Locate the Configuration Settings
+Environments, Labels, and Iterations
+Priorities and Statuses
+Datasets
+Custom Fields for Test Cases, Cycles, Plans, Steps, and Executions
+Delete and Archive
+Setting Permissions
+Enabling and Disabling Issue Types
+Working with Folders
+Test Cases
+Test Cases Overview
+Creating a test case
+Traceability in Test Cases
+Parameters
+Modular Test Design with Call to Test
+Version Control
+Gherkin Behavior-Driven Development (BDD)
+Data-Driven Test Design
+Working with Test Cases
+Adding Attachments in Test Step
+Manage Test Cases from a Jira Issue
+Executing a Single Test Case
+Import Test Cases
+Deleting Test Cases
+Test Cycles
+Test Cycles (Overview)
+Creating a Test Cycle
+Traceability in Test Cycles
+Running a Test Cycle
+Manage Test Cycles from a Jira Issue
+Test Cycle Creation Tips
+Editing, Cloning and Deleting Test Cycles
+Filter and View Options for Test Cycles
+Traceability in Test Executions
+Attaching Files in Test Steps
+Rerun Tests and History of Test Execution Results
+Track Progress
+Test Plans
+Test Plans (overview)
+Creating a Test Plan
+Traceability in Test Plans
+Edit and Delete Test Plans
+Filter and View Options for Test Plans
+Test Automation
+Test Automation (overview)
+Cucumber Integration
+JUnit Integration (custom)
+JUnit Integration (and similar)
+NUnit Integration
+Pytest Integration
+Robot Framework Integration
+TestNG Integration
+Zephyr Agent for Rovo
+Enabling Zephyr Agent for Rovo
+Test Coverage Skills
+Link Test Cases to Jira Work Items skill
+Create Test Cases Skill
+Test Execution Summary Skill
+Release Risk Analysis Skill
+Creating a custom Zephyr Agent for Rovo
+Search Test Cases, Cycles, and Plans Skills
+Use Cases of Zephyr Agent for Rovo
+Coverage Discovery
+SmartBear MCP Server
+Zephyr integration through SmartBear MCP
+Getting Started with Zephyr using SmartBear MCP
+Setting Up Zephyr Local MCP
+Setting Up Zephyr Remote MCP
+Run Automated Test with Zephyr
+How to Run an Automated Test Execution
+Record and Play Feature to Create Automation-Ready Test Cases
+Feature Comparison: Zephyr and Zephyr Advanced No-Code Automation
+Zephyr Advanced Features
+Connect to an Existing Reflect Account
+How to Use Variables and Secrets
+Test Execution Results
+Use Test Data and Expected Results in Test Runs
+How To Enable/Disable Automation Features
+Manage Steps AI Can't Execute
+Fix Your Test when AI Step Fails
+Supported Actions
+How is My Automation Usage Calculated?
+Data Privacy and Controls
+Feedback
+AI Terms of Use
+FAQ
+Continuous Integration
+Bamboo Integration
+Jenkins Integration
+Reports and Analysis
+Overview
+Generating Reports
+Creating and Saving a Custom Template for Reports
+Using Gadgets
+Using Power BI
+REST API
+REST API (overview)
+API Access Tokens Management
+Troubleshoot REST API Issues
+Security and Reliability
+Data Security
+Data Privacy
+Performance
+Data Residency
+Support Resources
+FAQ
+Archived Release Notes
+2021 Changes
+2020 Changes
+2019 Changes
+2018 Changes
+print
+Toggle navigation
+Prev
+Next
+Zephyr
+Cloud Documentation
+Zephyr Editions Feature Comparison
+Zephyr Editions Feature Comparison
+This page gives you a side-by-side comparison of the features available in different Zephyr Editions.
+Whether you’re evaluating which edition best fits your team’s needs or just want to confirm what’s included in your current plan, these tables will help you quickly understand the differences between the editions.
+Feature
+Zephyr Essential
+Zephyr
+Zephyr Advanced
+Manual test case management and execution
+✔
+✔
+✔
+Cross-space reporting and traceability
+✔
+✔
+✔
+Integration with popular automation frameworks
+(Selenium, Cypress, Playwright, Cucumber) and CI/CD
+✔
+✔
+✔
+BDD support
+✔
+✔
+✔
+REST API
+✔
+✔
+✔
+Data Residency
+✔
+✔
+Automatic test case generation using record and play (Web apps)
+✔
+✔
+No-code test automation (Web apps and APIs)
+✔
+✔
+Smart test-step suggestions
+✔
+✔
+Cross-browser testing (default Chrome)
+✔
+(Chrome, Firefox, Edge, Safari)
+Parallel testing
+✔ (3 Parallels)
+SMS testing
+✔
+Email testing
+✔
+Zephyr Agent for Rovo
+✔
+✔
+Smartbear MCP integration with Zephyr (Remote & Local)
+✔
+✔
+In this section
+:
+Search results
+No results found
+Prev
+Next
+
+================================================================================
+SOURCE: https://support.smartbear.com/zephyr/docs/en/zephyr-squad-to-zephyr-upgrade-guide.html
+================================================================================
+
+Squad to Zephyr Upgrade Guide | Zephyr Documentation
+Skip to main content
+Toggle navigation
+Welcome to the Zephyr Documentation
+Zephyr Editions Feature Comparison
+Our Roadmap
+Release Notes
+Squad to Zephyr Upgrade Guide
+Migrate to Zephyr
+Feature Comparison
+Product Comparison
+Data Transfer
+Solution for Unmigrated Data
+Get Started
+Installing the App
+Enabling the App
+Zephyr Glossary
+Workflow Strategies
+Linking Jira Fields
+Configuration
+Advanced Customization Options
+Grid View
+Locate the Configuration Settings
+Environments, Labels, and Iterations
+Priorities and Statuses
+Datasets
+Custom Fields for Test Cases, Cycles, Plans, Steps, and Executions
+Delete and Archive
+Setting Permissions
+Enabling and Disabling Issue Types
+Working with Folders
+Test Cases
+Test Cases Overview
+Creating a test case
+Traceability in Test Cases
+Parameters
+Modular Test Design with Call to Test
+Version Control
+Gherkin Behavior-Driven Development (BDD)
+Data-Driven Test Design
+Working with Test Cases
+Adding Attachments in Test Step
+Manage Test Cases from a Jira Issue
+Executing a Single Test Case
+Import Test Cases
+Deleting Test Cases
+Test Cycles
+Test Cycles (Overview)
+Creating a Test Cycle
+Traceability in Test Cycles
+Running a Test Cycle
+Manage Test Cycles from a Jira Issue
+Test Cycle Creation Tips
+Editing, Cloning and Deleting Test Cycles
+Filter and View Options for Test Cycles
+Traceability in Test Executions
+Attaching Files in Test Steps
+Rerun Tests and History of Test Execution Results
+Track Progress
+Test Plans
+Test Plans (overview)
+Creating a Test Plan
+Traceability in Test Plans
+Edit and Delete Test Plans
+Filter and View Options for Test Plans
+Test Automation
+Test Automation (overview)
+Cucumber Integration
+JUnit Integration (custom)
+JUnit Integration (and similar)
+NUnit Integration
+Pytest Integration
+Robot Framework Integration
+TestNG Integration
+Zephyr Agent for Rovo
+Enabling Zephyr Agent for Rovo
+Test Coverage Skills
+Link Test Cases to Jira Work Items skill
+Create Test Cases Skill
+Test Execution Summary Skill
+Release Risk Analysis Skill
+Creating a custom Zephyr Agent for Rovo
+Search Test Cases, Cycles, and Plans Skills
+Use Cases of Zephyr Agent for Rovo
+Coverage Discovery
+SmartBear MCP Server
+Zephyr integration through SmartBear MCP
+Getting Started with Zephyr using SmartBear MCP
+Setting Up Zephyr Local MCP
+Setting Up Zephyr Remote MCP
+Run Automated Test with Zephyr
+How to Run an Automated Test Execution
+Record and Play Feature to Create Automation-Ready Test Cases
+Feature Comparison: Zephyr and Zephyr Advanced No-Code Automation
+Zephyr Advanced Features
+Connect to an Existing Reflect Account
+How to Use Variables and Secrets
+Test Execution Results
+Use Test Data and Expected Results in Test Runs
+How To Enable/Disable Automation Features
+Manage Steps AI Can't Execute
+Fix Your Test when AI Step Fails
+Supported Actions
+How is My Automation Usage Calculated?
+Data Privacy and Controls
+Feedback
+AI Terms of Use
+FAQ
+Continuous Integration
+Bamboo Integration
+Jenkins Integration
+Reports and Analysis
+Overview
+Generating Reports
+Creating and Saving a Custom Template for Reports
+Using Gadgets
+Using Power BI
+REST API
+REST API (overview)
+API Access Tokens Management
+Troubleshoot REST API Issues
+Security and Reliability
+Data Security
+Data Privacy
+Performance
+Data Residency
+Support Resources
+FAQ
+Archived Release Notes
+2021 Changes
+2020 Changes
+2019 Changes
+2018 Changes
+print
+Toggle navigation
+Prev
+Next
+Zephyr
+Cloud Documentation
+Squad to Zephyr Upgrade Guide
+Squad to Zephyr Upgrade Guide
+This guide helps teams upgrade from Zephyr Squad to Zephyr. It describes the upgrade paths, the migration process, and the key considerations to plan for. Zephyr offers improved performance, advanced automation, and a modern user experience.
+Before you begin
+Review the following availability limitations before you plan an upgrade:
+Zephyr Squad to Zephyr Essential and Zephyr Squad to Zephyr upgrades are not currently supported on the Atlassian Forge platform.
+Migration does not work on Zephyr Squad version 8.2.11 or later.
+SmartBear is working to resolve both limitations. If either applies to you, contact SmartBear support to confirm your options before you begin.
+Why Upgrade to Zephyr?
+Zephyr offers the following:
+A consistent, modern experience with AI-powered automation workflows.
+A high-performance backend that supports AI-powered features and advanced automation needs.
+Support for advanced compliance and automation requirements.
+Migration Status
+The Squad to Zephyr migration is currently in beta. Because the tool is still in beta, the migration might not be seamless. You might encounter issues during the process, need to repeat steps, or find that some data needs to be reviewed before it is correct. Plan your upgrade with this in mind, and allow time to validate the results before you rely on the migrated data.
+Assessment Phase
+If you are a new customer planning an upgrade, you go through an assessment phase before your production migration. The assessment confirms that your data can migrate successfully and helps set realistic dates for the production migration.
+During the assessment phase, the SmartBear team does the following:
+Evaluates your migration eligibility to confirm that your Zephyr Squad configuration and version can migrate.
+Performs a test migration of your data.
+Review the test migration results with you to identify any issues.
+Plan your production migration dates based on the outcome of the test migration.
+This assessment and planning process remains in place until the migration tool reaches general availability (GA).
+Key Features
+Cross-space test management
+Test repository
+Test case versioning
+Test data and parameters
+Test plans
+Multi-level folder structure
+Enhanced reporting
+Improved performance
+AI-powered no-code automation
+Record & play test generation
+Test-step suggestions
+Data residency and compliance support
+Upgrade path to Zephyr Advanced (includes cross-browser testing, parallel testing, email/SMS testing, and 4x more AI test runs)
+Check also
+Product Comparison
+and
+Feature Comparison
+for detailed information.
+Upgrade Experience
+Upgrading from Zephyr Squad to
+Zephyr
+involves:
+A
+dedicated migration UI
+with:
+Project-level migration
+Progress tracking and retry options
+Migration logs
+The ability to migrate individual spaces
+Migration runs space by space, so you can validate each space individually.
+App Availability During Migration
+Zephyr remains usable during the data migration. The app is not blocked by default, so you can continue creating or modifying data.
+Note
+Re-running the migration overwrites previously migrated data, and any existing data in Zephyr is also overwritten. Merging and delta migrations are not supported. If you add or update data in Zephyr Squad after a migration and want those changes to appear in Zephyr, you must re-run the migration.
+To prevent data inconsistencies, the migration user interface lets you block Zephyr Squad during migration. Blocking is optional, but SmartBear recommends it to protect data integrity.
+Environment Options
+Production Migration.
+Fully supported. Zephyr Squad is usable during migration.
+Sandbox Migration.
+Possible, but requires manual setup. Squad data cannot be copied directly from production. Use
+CSV export/import
+for test cases and test steps.
+Note
+The CSV export/import feature supports only importing test cases and test steps. It does not support importing test cycles or test executions.
+For detailed, step-by-step guidance on the upgrade process, including UI screenshots and comprehensive instructions, check
+Upgrade to Zephyr – Step-by-step guide
+.
+Migrated Data
+All primary test management entities are migrated, including:
+Test cases
+Test cycles
+Test executions
+The following data is not migrated:
+BDD data
+Test execution history
+For full data mapping details, check
+Data Mapping Reference
+. For a list of non-migrated data, check
+Non-migrated Data Details
+.
+Roadmap for Non-Migrated Data
+We are actively working to support the migration of currently non-migrated data.
+Data Type
+Expected Availability
+BDD Data
+Q1 2027
+Test Execution History
+Q1 2027
+We will update this guide as these features become available. Note that the expected availability timelines are subject to change.
+You can track and submit feature requests on our
+Feature Request Portal
+.
+Time and Effort Required to Upgrade
+The backend infrastructure and migration process is the same for both upgrade paths.
+In Squad to
+Zephyr
+, data migration is done
+space by space
+, allowing individual validation.
+Overall time required will depend on the volume of data and the number of spaces.
+The REST application programming interface (API) endpoints in Zephyr differ from those in Zephyr Squad. When you upgrade, you must update your automation scripts to use the new endpoints. For details, see the
+Zephyr API documentation
+. For a detailed comparison of API differences between Squad and Zephyr/Essential, see the
+API Differences Reference
+.
+Pricing and Licensing
+Upgrade to
+Zephyr
+requires a new license. If there are more than six months left to run on the Zephyr Squad for Jira Cloud subscription, a pro-rata discount is available on request. The discount is in the form of a promo code that you can use to apply to the new Zephyr subscription. You can let the Zephyr Squad license expire.
+During the upgrade/UAT phase, we can arrange for dual licensing upon request. We provide a limited free license if you have a paid or commercial license in place. If you have any questions about licenses, feel free to email
+[email protected]
+.
+Register for the Upgrade
+If you want to upgrade to
+Zephyr
+,
+create a support ticket with our team
+. Based on your selected upgrade path, our support team will guide you through the next steps.
+See Also
+Upgrade to Zephyr – Step-by-step guide
+Data Mapping Reference
+Non-migrated Data Details
+CSV Export/Import Help Article
+Product Comparison
+Feature Comparison
+Known Issues and Troubleshooting
+If you encounter any problems, feel free to contact our
+support team
+.
+In this section
+:
+Squad to Zephyr Upgrade Guide
+Before you begin
+Why Upgrade to Zephyr?
+Migration Status
+Assessment Phase
+Key Features
+Upgrade Experience
+App Availability During Migration
+Environment Options
+Migrated Data
+Roadmap for Non-Migrated Data
+Time and Effort Required to Upgrade
+Pricing and Licensing
+Register for the Upgrade
+See Also
+Known Issues and Troubleshooting
+Search results
+No results found
+Prev
+Next
+
+================================================================================
+SOURCE: https://support.smartbear.com/zephyr/docs/en/zephyr-squad-to-zephyr-upgrade-guide/data-transfer.html
+================================================================================
+
+Data Transfer | Zephyr Documentation
+Skip to main content
+Toggle navigation
+Welcome to the Zephyr Documentation
+Zephyr Editions Feature Comparison
+Our Roadmap
+Release Notes
+Squad to Zephyr Upgrade Guide
+Migrate to Zephyr
+Feature Comparison
+Product Comparison
+Data Transfer
+Solution for Unmigrated Data
+Get Started
+Installing the App
+Enabling the App
+Zephyr Glossary
+Workflow Strategies
+Linking Jira Fields
+Configuration
+Advanced Customization Options
+Grid View
+Locate the Configuration Settings
+Environments, Labels, and Iterations
+Priorities and Statuses
+Datasets
+Custom Fields for Test Cases, Cycles, Plans, Steps, and Executions
+Delete and Archive
+Setting Permissions
+Enabling and Disabling Issue Types
+Working with Folders
+Test Cases
+Test Cases Overview
+Creating a test case
+Traceability in Test Cases
+Parameters
+Modular Test Design with Call to Test
+Version Control
+Gherkin Behavior-Driven Development (BDD)
+Data-Driven Test Design
+Working with Test Cases
+Adding Attachments in Test Step
+Manage Test Cases from a Jira Issue
+Executing a Single Test Case
+Import Test Cases
+Deleting Test Cases
+Test Cycles
+Test Cycles (Overview)
+Creating a Test Cycle
+Traceability in Test Cycles
+Running a Test Cycle
+Manage Test Cycles from a Jira Issue
+Test Cycle Creation Tips
+Editing, Cloning and Deleting Test Cycles
+Filter and View Options for Test Cycles
+Traceability in Test Executions
+Attaching Files in Test Steps
+Rerun Tests and History of Test Execution Results
+Track Progress
+Test Plans
+Test Plans (overview)
+Creating a Test Plan
+Traceability in Test Plans
+Edit and Delete Test Plans
+Filter and View Options for Test Plans
+Test Automation
+Test Automation (overview)
+Cucumber Integration
+JUnit Integration (custom)
+JUnit Integration (and similar)
+NUnit Integration
+Pytest Integration
+Robot Framework Integration
+TestNG Integration
+Zephyr Agent for Rovo
+Enabling Zephyr Agent for Rovo
+Test Coverage Skills
+Link Test Cases to Jira Work Items skill
+Create Test Cases Skill
+Test Execution Summary Skill
+Release Risk Analysis Skill
+Creating a custom Zephyr Agent for Rovo
+Search Test Cases, Cycles, and Plans Skills
+Use Cases of Zephyr Agent for Rovo
+Coverage Discovery
+SmartBear MCP Server
+Zephyr integration through SmartBear MCP
+Getting Started with Zephyr using SmartBear MCP
+Setting Up Zephyr Local MCP
+Setting Up Zephyr Remote MCP
+Run Automated Test with Zephyr
+How to Run an Automated Test Execution
+Record and Play Feature to Create Automation-Ready Test Cases
+Feature Comparison: Zephyr and Zephyr Advanced No-Code Automation
+Zephyr Advanced Features
+Connect to an Existing Reflect Account
+How to Use Variables and Secrets
+Test Execution Results
+Use Test Data and Expected Results in Test Runs
+How To Enable/Disable Automation Features
+Manage Steps AI Can't Execute
+Fix Your Test when AI Step Fails
+Supported Actions
+How is My Automation Usage Calculated?
+Data Privacy and Controls
+Feedback
+AI Terms of Use
+FAQ
+Continuous Integration
+Bamboo Integration
+Jenkins Integration
+Reports and Analysis
+Overview
+Generating Reports
+Creating and Saving a Custom Template for Reports
+Using Gadgets
+Using Power BI
+REST API
+REST API (overview)
+API Access Tokens Management
+Troubleshoot REST API Issues
+Security and Reliability
+Data Security
+Data Privacy
+Performance
+Data Residency
+Support Resources
+FAQ
+Archived Release Notes
+2021 Changes
+2020 Changes
+2019 Changes
+2018 Changes
+print
+Toggle navigation
+Prev
+Next
+Zephyr
+Cloud Documentation
+Squad to Zephyr Upgrade Guide
+Data Transfer
+Data Transfer
+During your upgrade, the Jira settings and permissions will stay the same. The following data will be migrated:
+Test cases fields
+Squad test case fields
+Zephyr
+/ Zephyr Essential test case fields
+Migration path
+Summary
+Name
+We migrate the Squad test case "Summary" field to the "Name" field inside the
+Zephyr
+/ Zephyr Essential test case.
+Description
+Objective
+We migrate the Squad test case "Description" field to the "Objective" field inside the
+Zephyr
+/ Zephyr Essential test case.
+Status
+Status
+We extract the data about issue statuses from Jira ("To Do", In Progress", "Done", etc) for this project and use this data to re-create these statuses as custom statuses for test cases in
+Zephyr
+/ Zephyr Essential and then assign them accordingly to test cases migrated from Squad to
+Zephyr
+/ Zephyr Essential.
+Assignee
+No equivalent inside the test case creation in
+Zephyr
+/ Zephyr Essential.
+We create a custom field for test case in
+Zephyr
+/ Zephyr Essential with type user picker called “Assignee“ and map Squad Assignee there.
+Labels
+Labels
+We need to extract labels for test case from Squad and migrate them to
+Zephyr
+/ Zephyr Essential.
+If multiple labels in Squad share the same lowercase value, the migration process appends a _migration_id suffix with an incrementing number, starting from 1.
+Example,
+Input:
+1. test1 2. TEST 3. tEsT
+Output:
+1. test_migration_1 2. test_migration_2 3. test_migration_3
+Sprint
+No equivalent inside the test case creation in
+Zephyr
+Zephyr Essential.
+Sprint Field from Squad will become a test case custom field(Select list Multi-choice) in
+Zephyr
+/ Zephyr Essential with the name "Sprint" that contains the data from Squad.
+Story point estimate
+No equivalent inside the test case creation in
+Zephyr
+/ Zephyr Essential.
+WE ARE NOT MIGRATING THIS FIELD. There is no use of story points in
+Zephyr
+/ Zephyr Essential.
+Fix versions
+No equivalent inside the test case creation in
+Zephyr
+/ Zephyr Essential.
+The "Fix versions" Field from Squad will become a test case custom field(Select list Multi-choice) in
+Zephyr
+/ Zephyr Essential with the name "Fix versions" that contains the data from Squad test case “Fix Version“ field.
+Affected versions
+No equivalent inside the test case creation in
+Zephyr
+/ Zephyr Essential.
+If the value exists, “Affected version” field will be migrated as a custom field called “Affected version“ (Select list Multi-choice) for
+Zephyr
+/ Zephyr Essential test case.
+Reporter
+Owner
+We migrate data from the "Reporter" field in Squad to the
+Zephyr
+/ Zephyr Essential test case field "Owner".
+Priority
+Priority
+We are migrating all priorities as custom ones and then assigning them according to the migrated test cases.
+Due date
+No equivalent inside the test case creation in
+Zephyr
+/ Zephyr Essential.
+We are migrating “Due Date” field from Squad as custom field called “Due Date” to
+Zephyr
+/ Zephyr Essential with the type Date picker.
+Original estimate
+Estimated time
+We need to transform the data into the hours and minutes format (hh:mm) and if the value will be bigger than 99h:59m. We truncate it to fit 99h:59m and assign this value to the "Estimated time" field in the
+Zephyr
+/ Zephyr Essential Test case.
+Time Tracking
+No equivalent inside the test case creation in
+Zephyr
+/ Zephyr Essential.
+WE ARE NOT MIGRATING THIS FIELD. “Time tracking“ for Squad test case represents the logged time. It's equivalent in
+Zephyr
+/ Zephyr Essential is represented by the field "Actual" inside the test player.
+Start dates
+No equivalent inside the test case creation in
+Zephyr
+/ Zephyr Essential.
+If the value exists, we are migrating “Start dates” field from Squad as custom field called “Start dates” to
+Zephyr
+/ Zephyr Essential with the type Date picker.
+Environment
+No equivalent inside the test case creation in
+Zephyr
+/ Zephyr Essential.
+If the “Environment“ field for Squad test case is not empty we need to create a custom field in
+Zephyr
+/ Zephyr Essential called “Environment“(type: Text Field (Multi-Line)) and transfer Squad data to this field in
+Zephyr
+/ Zephyr Essential.
+Component
+Component
+If the component field in Squad contains multiple component values, one of the components needs to be assigned to the component field for the
+Zephyr
+/ Zephyr Essential test case and all others need to be mapped to the
+Zephyr
+/ Zephyr Essential test case custom field called “Squad components“ with the type Select List (Multi Choice).
+Epic link
+Test case → traceability tab → Issue
+When we have an epic link we need to link it to Jira issue inside the traceability section of the test case
+Issue links
+Test case → traceability tab → Issue
+When we have an issue link we need to link it to Jira issue inside the traceability section of the test case
+Comments
+Comments
+We migrate comments as it is from Squad test case to
+Zephyr
+/ Zephyr Essential test case
+Attachments
+Attachments
+We migrate attachments as they are.
+Subtasks
+Test case → traceability tab → Issue
+When we have an sub-task link we need to link it to Jira issue inside the traceability section of the test case
+Test case custom fields
+All of them will be migrated except the one with
+Jira Advanced type
+Squad
+Zephyr
+/ Zephyr Essential
+Checkboxes
+Select List (Multi-Choice)
+Date picker
+Date Picker
+Date time picker
+Date Picker
+Number field
+Number
+Radio Buttons
+Select List (Single Choice)
+Select list (multiple choices)
+Select List (Multi-Choice)
+Select list (single choice)
+Select List (Single-Choice)
+Paragraph (supports rich text)
+Text Field (Multi-Line)
+Short text (plain text only)
+Text Field (Single-Line)
+URL Field
+Text Field (Multi-Line)
+User Picker (single user)
+User Picker
+Test case linked issues
+We extract linked issues from the Squad test case and link them to the
+Zephyr
+/ Zephyr Essential test case in the traceability section.
+Test case web links
+We extract weblinks linked to a Squad test case and link them to the
+Zephyr
+/ Zephyr Essential test case in the traceability section.
+Test case steps: step, data, and result
+Squad
+Zephyr
+/ Zephyr Essential
+Test step
+Step
+Test Data
+Test Data
+Test Result
+Expected Result
+Attachments
+Attachments
+Custom fields
+Custom fields
+Test case step attachments
+We migrate test case step attachments as they are.
+Test case step custom field
+Squad
+Zephyr
+/ Zephyr Essential
+Text Field (single line)
+A basic single line text box custom field to allow simple text input.
+Text Field (Single Line)
+Text Field (multi-line)
+A multiline text area custom field to allow input of longer text strings.
+Text Field (Multi-Line)
+Number Field
+A custom field that stores and validates numeric (floating point) input.
+Number
+Radio Buttons
+A list of radio buttons.
+N/A
+Checkboxes
+Choose multiple values using checkboxes.
+Checkboxes
+Select List (single choices)A single select list with a configurable list of options.
+Select List (Single Choice)
+Select List (multiple choices)Choose multiple values in a select list.
+Select List (Multi-Choice)
+Date Picker
+A custom field that stores dates and uses a date picker to view them.
+Date Picker
+Date Time PickerA custom field that stores dates with a time component.
+N/A
+Test case change history
+To migrate Squad test case history to
+Zephyr
+/ Zephyr Essential we need to combine data from the Jira issue history and the “Test Details History” tab.
+From the “Test Details History” tab we need to get data about changes made to Squad test steps.
+From the Jira issue history, we need to get all the data available there.
+After getting the data from both Squad histories we need to sort it based on the time that the change was made. (sort by date and time to get the right order.)
+After sorting the data we import it to
+Zephyr
+/ Zephyr Essential as a separate change event to the test case.
+Test cycles fields
+Squad
+Zephyr
+/ Zephyr Essential
+Version
+Release version
+Name
+Name
+Description
+Description
+Build
+Text custom field
+Environment
+Text custom field
+From
+Test cycle Planned start date
+To
+Test cycle Planned end date
+Test execution fields
+Squad
+Zephyr
+/ Zephyr Essential
+Test execution key/id
+Test execution key/id
+Summary
+Summary
+Description
+Objective
+Execution Status
+Execution Status
+All Execution Statuses - UNEXECUTED, PASS, FAIL, WIP, BLOCKED, Custom
+UNEXECUTED → Not ExecutedWIP → In ProgressPASS → PassFAIL → FailBLOCKED → BlockedCustom → Custom
+Default Status Description
+As Scale’s configuration
+Default Status Color
+As Scale’s configuration
+Custom Status Description
+As Squad’s configuration
+Custom Status Color
+As Squad’s configuration
+Assigned To
+Assigned To
+Defects
+Issues
+Comment
+Comment
+Comment Rich text attachment
+Executed By
+Executed By
+Executed On
+Executed On
+Total Execution Time
+Estimated
+Total Logged Time
+Actual
+Execution Work Flow Status
+N/A
+Component (In Cycle Summary grid)
+Present under Details section
+Label (In Cycle Summary grid)
+Present under Details section
+Attachments
+Attachments
+Execution History
+Not Supported
+Test Details
+Test Script
+Step results Test step
+Test Script Test step
+Step results Test data
+Test Script Test data
+Step results Test result
+Test Script Test result
+Step results Status
+Test Script Status
+All Test Step Results Statuses - UNEXECUTED, PASS, FAIL, WIP, BLOCKED, Custom
+UNEXECUTED → Not ExecutedWIP → In ProgressPASS → PassFAIL → FailBLOCKED → BlockedCustom → Custom
+Step results Comments
+Test Script Actual Result
+Step level Attachments
+Test Script attachments
+Step level custom fields
+Test Script custom fields
+Step results attachments
+Test Script attachments
+Step results defects
+Test Script Issues
+Execution search filters
+N/A
+Test execution custom fields
+Squad
+Zephyr
+/ Zephyr Essential
+Text Field (single line)
+A basic single line text box custom field to allow simple text input.
+Text Field (Single Line)
+Text Field (multi-line)
+A multiline text area custom field to allow input of longer text strings.
+Text Field (Multi-Line)
+Number Field
+A custom field that stores and validates numeric (floating point) input.
+Number
+Radio Buttons
+A list of radio buttons.
+N/A
+Checkboxes
+Choose multiple values using checkboxes.
+Checkbox
+Select List (single choices)
+A single select list with a configurable list of options.
+Select List (Single Choice)
+Select List (multiple choices)
+Choose multiple values in a select list.
+Select List (Multi-Choice)
+Date Picker
+A custom field that stores dates and uses a date picker to view them.
+Date Picker
+Date Time Picker
+A custom field that stores dates with a time component.
+N/A
+Test cycle folder structure
+In Squad, a test cycle is created under a fix version. Fix versions can be in released or in unreleased state and the tree structure to organize test cycles are grouped by it. By default, a fix version named Unscheduled and a test cycle named Ad-hoc for each fix versions is present. Test cycles can have one more level called Test folder under it.
+In
+Zephyr
+/ Zephyr Essential, the folder hierarchy is created first and for each folder test cycles can be created. Folder structure are present for n-levels and fix versions are present as a field for the test cycle.
+For migrating data from Squad to
+Zephyr
+/ Zephyr Essential, the test cycle and folder hierarcy under the fix versions is migrated as the folder structure in
+Zephyr
+/ Zephyr Essential. The executions present for each of these cycles and folders is added by creating a test cycle each under the respective folder node. The test cycle is given a name with the folder name prefix for example, login-cycle. The fix version for these test cycles is added as the fix version field value for the test cycle.
+Ad hoc test cycles executions is migrated to folder named Ad hoc and by creating multiple test cycles with each fix versions added to it.
+API Keys
+Squad
+Zephyr
+/ Zephyr Essential
+API Tokens
+Existing tokens from Squad is not migrated. New api tokens need to be created.
+Test Automation
+Zephyr
+/ Zephyr Essential
+Squad
+Saved configurations
+Since the automation in
+Zephyr
+/ Zephyr Essential is REST API based, the saved automation configurations won’t be applicable.
+Data that will not be migrated
+BDD data
+Test execution audit logs
+Test execution saved filters
+JQL saved filters
+Test steps custom fields change history
+Custom field of type Select list (cascading)
+Custom field of type Label
+Advanced custom fields
+for test cases
+Archived Jira projects
+Archived test cases
+In this section
+:
+Data Transfer
+Test cases fields
+Test case custom fields
+Test case linked issues
+Test case web links
+Test case steps: step, data, and result
+Test case step attachments
+Test case step custom field
+Test case change history
+Test cycles fields
+Test execution fields
+Test execution custom fields
+Test cycle folder structure
+API Keys
+Test Automation
+Data that will not be migrated
+Search results
+No results found
+Prev
+Next
+
+================================================================================
+SOURCE: https://support.smartbear.com/zephyr/docs/en/zephyr-squad-to-zephyr-upgrade-guide/data-transfer.html#data-that-will-not-be-migrated-2073237
+================================================================================
+
+Data Transfer | Zephyr Documentation
+Skip to main content
+Toggle navigation
+Welcome to the Zephyr Documentation
+Zephyr Editions Feature Comparison
+Our Roadmap
+Release Notes
+Squad to Zephyr Upgrade Guide
+Migrate to Zephyr
+Feature Comparison
+Product Comparison
+Data Transfer
+Solution for Unmigrated Data
+Get Started
+Installing the App
+Enabling the App
+Zephyr Glossary
+Workflow Strategies
+Linking Jira Fields
+Configuration
+Advanced Customization Options
+Grid View
+Locate the Configuration Settings
+Environments, Labels, and Iterations
+Priorities and Statuses
+Datasets
+Custom Fields for Test Cases, Cycles, Plans, Steps, and Executions
+Delete and Archive
+Setting Permissions
+Enabling and Disabling Issue Types
+Working with Folders
+Test Cases
+Test Cases Overview
+Creating a test case
+Traceability in Test Cases
+Parameters
+Modular Test Design with Call to Test
+Version Control
+Gherkin Behavior-Driven Development (BDD)
+Data-Driven Test Design
+Working with Test Cases
+Adding Attachments in Test Step
+Manage Test Cases from a Jira Issue
+Executing a Single Test Case
+Import Test Cases
+Deleting Test Cases
+Test Cycles
+Test Cycles (Overview)
+Creating a Test Cycle
+Traceability in Test Cycles
+Running a Test Cycle
+Manage Test Cycles from a Jira Issue
+Test Cycle Creation Tips
+Editing, Cloning and Deleting Test Cycles
+Filter and View Options for Test Cycles
+Traceability in Test Executions
+Attaching Files in Test Steps
+Rerun Tests and History of Test Execution Results
+Track Progress
+Test Plans
+Test Plans (overview)
+Creating a Test Plan
+Traceability in Test Plans
+Edit and Delete Test Plans
+Filter and View Options for Test Plans
+Test Automation
+Test Automation (overview)
+Cucumber Integration
+JUnit Integration (custom)
+JUnit Integration (and similar)
+NUnit Integration
+Pytest Integration
+Robot Framework Integration
+TestNG Integration
+Zephyr Agent for Rovo
+Enabling Zephyr Agent for Rovo
+Test Coverage Skills
+Link Test Cases to Jira Work Items skill
+Create Test Cases Skill
+Test Execution Summary Skill
+Release Risk Analysis Skill
+Creating a custom Zephyr Agent for Rovo
+Search Test Cases, Cycles, and Plans Skills
+Use Cases of Zephyr Agent for Rovo
+Coverage Discovery
+SmartBear MCP Server
+Zephyr integration through SmartBear MCP
+Getting Started with Zephyr using SmartBear MCP
+Setting Up Zephyr Local MCP
+Setting Up Zephyr Remote MCP
+Run Automated Test with Zephyr
+How to Run an Automated Test Execution
+Record and Play Feature to Create Automation-Ready Test Cases
+Feature Comparison: Zephyr and Zephyr Advanced No-Code Automation
+Zephyr Advanced Features
+Connect to an Existing Reflect Account
+How to Use Variables and Secrets
+Test Execution Results
+Use Test Data and Expected Results in Test Runs
+How To Enable/Disable Automation Features
+Manage Steps AI Can't Execute
+Fix Your Test when AI Step Fails
+Supported Actions
+How is My Automation Usage Calculated?
+Data Privacy and Controls
+Feedback
+AI Terms of Use
+FAQ
+Continuous Integration
+Bamboo Integration
+Jenkins Integration
+Reports and Analysis
+Overview
+Generating Reports
+Creating and Saving a Custom Template for Reports
+Using Gadgets
+Using Power BI
+REST API
+REST API (overview)
+API Access Tokens Management
+Troubleshoot REST API Issues
+Security and Reliability
+Data Security
+Data Privacy
+Performance
+Data Residency
+Support Resources
+FAQ
+Archived Release Notes
+2021 Changes
+2020 Changes
+2019 Changes
+2018 Changes
+print
+Toggle navigation
+Prev
+Next
+Zephyr
+Cloud Documentation
+Squad to Zephyr Upgrade Guide
+Data Transfer
+Data Transfer
+During your upgrade, the Jira settings and permissions will stay the same. The following data will be migrated:
+Test cases fields
+Squad test case fields
+Zephyr
+/ Zephyr Essential test case fields
+Migration path
+Summary
+Name
+We migrate the Squad test case "Summary" field to the "Name" field inside the
+Zephyr
+/ Zephyr Essential test case.
+Description
+Objective
+We migrate the Squad test case "Description" field to the "Objective" field inside the
+Zephyr
+/ Zephyr Essential test case.
+Status
+Status
+We extract the data about issue statuses from Jira ("To Do", In Progress", "Done", etc) for this project and use this data to re-create these statuses as custom statuses for test cases in
+Zephyr
+/ Zephyr Essential and then assign them accordingly to test cases migrated from Squad to
+Zephyr
+/ Zephyr Essential.
+Assignee
+No equivalent inside the test case creation in
+Zephyr
+/ Zephyr Essential.
+We create a custom field for test case in
+Zephyr
+/ Zephyr Essential with type user picker called “Assignee“ and map Squad Assignee there.
+Labels
+Labels
+We need to extract labels for test case from Squad and migrate them to
+Zephyr
+/ Zephyr Essential.
+If multiple labels in Squad share the same lowercase value, the migration process appends a _migration_id suffix with an incrementing number, starting from 1.
+Example,
+Input:
+1. test1 2. TEST 3. tEsT
+Output:
+1. test_migration_1 2. test_migration_2 3. test_migration_3
+Sprint
+No equivalent inside the test case creation in
+Zephyr
+Zephyr Essential.
+Sprint Field from Squad will become a test case custom field(Select list Multi-choice) in
+Zephyr
+/ Zephyr Essential with the name "Sprint" that contains the data from Squad.
+Story point estimate
+No equivalent inside the test case creation in
+Zephyr
+/ Zephyr Essential.
+WE ARE NOT MIGRATING THIS FIELD. There is no use of story points in
+Zephyr
+/ Zephyr Essential.
+Fix versions
+No equivalent inside the test case creation in
+Zephyr
+/ Zephyr Essential.
+The "Fix versions" Field from Squad will become a test case custom field(Select list Multi-choice) in
+Zephyr
+/ Zephyr Essential with the name "Fix versions" that contains the data from Squad test case “Fix Version“ field.
+Affected versions
+No equivalent inside the test case creation in
+Zephyr
+/ Zephyr Essential.
+If the value exists, “Affected version” field will be migrated as a custom field called “Affected version“ (Select list Multi-choice) for
+Zephyr
+/ Zephyr Essential test case.
+Reporter
+Owner
+We migrate data from the "Reporter" field in Squad to the
+Zephyr
+/ Zephyr Essential test case field "Owner".
+Priority
+Priority
+We are migrating all priorities as custom ones and then assigning them according to the migrated test cases.
+Due date
+No equivalent inside the test case creation in
+Zephyr
+/ Zephyr Essential.
+We are migrating “Due Date” field from Squad as custom field called “Due Date” to
+Zephyr
+/ Zephyr Essential with the type Date picker.
+Original estimate
+Estimated time
+We need to transform the data into the hours and minutes format (hh:mm) and if the value will be bigger than 99h:59m. We truncate it to fit 99h:59m and assign this value to the "Estimated time" field in the
+Zephyr
+/ Zephyr Essential Test case.
+Time Tracking
+No equivalent inside the test case creation in
+Zephyr
+/ Zephyr Essential.
+WE ARE NOT MIGRATING THIS FIELD. “Time tracking“ for Squad test case represents the logged time. It's equivalent in
+Zephyr
+/ Zephyr Essential is represented by the field "Actual" inside the test player.
+Start dates
+No equivalent inside the test case creation in
+Zephyr
+/ Zephyr Essential.
+If the value exists, we are migrating “Start dates” field from Squad as custom field called “Start dates” to
+Zephyr
+/ Zephyr Essential with the type Date picker.
+Environment
+No equivalent inside the test case creation in
+Zephyr
+/ Zephyr Essential.
+If the “Environment“ field for Squad test case is not empty we need to create a custom field in
+Zephyr
+/ Zephyr Essential called “Environment“(type: Text Field (Multi-Line)) and transfer Squad data to this field in
+Zephyr
+/ Zephyr Essential.
+Component
+Component
+If the component field in Squad contains multiple component values, one of the components needs to be assigned to the component field for the
+Zephyr
+/ Zephyr Essential test case and all others need to be mapped to the
+Zephyr
+/ Zephyr Essential test case custom field called “Squad components“ with the type Select List (Multi Choice).
+Epic link
+Test case → traceability tab → Issue
+When we have an epic link we need to link it to Jira issue inside the traceability section of the test case
+Issue links
+Test case → traceability tab → Issue
+When we have an issue link we need to link it to Jira issue inside the traceability section of the test case
+Comments
+Comments
+We migrate comments as it is from Squad test case to
+Zephyr
+/ Zephyr Essential test case
+Attachments
+Attachments
+We migrate attachments as they are.
+Subtasks
+Test case → traceability tab → Issue
+When we have an sub-task link we need to link it to Jira issue inside the traceability section of the test case
+Test case custom fields
+All of them will be migrated except the one with
+Jira Advanced type
+Squad
+Zephyr
+/ Zephyr Essential
+Checkboxes
+Select List (Multi-Choice)
+Date picker
+Date Picker
+Date time picker
+Date Picker
+Number field
+Number
+Radio Buttons
+Select List (Single Choice)
+Select list (multiple choices)
+Select List (Multi-Choice)
+Select list (single choice)
+Select List (Single-Choice)
+Paragraph (supports rich text)
+Text Field (Multi-Line)
+Short text (plain text only)
+Text Field (Single-Line)
+URL Field
+Text Field (Multi-Line)
+User Picker (single user)
+User Picker
+Test case linked issues
+We extract linked issues from the Squad test case and link them to the
+Zephyr
+/ Zephyr Essential test case in the traceability section.
+Test case web links
+We extract weblinks linked to a Squad test case and link them to the
+Zephyr
+/ Zephyr Essential test case in the traceability section.
+Test case steps: step, data, and result
+Squad
+Zephyr
+/ Zephyr Essential
+Test step
+Step
+Test Data
+Test Data
+Test Result
+Expected Result
+Attachments
+Attachments
+Custom fields
+Custom fields
+Test case step attachments
+We migrate test case step attachments as they are.
+Test case step custom field
+Squad
+Zephyr
+/ Zephyr Essential
+Text Field (single line)
+A basic single line text box custom field to allow simple text input.
+Text Field (Single Line)
+Text Field (multi-line)
+A multiline text area custom field to allow input of longer text strings.
+Text Field (Multi-Line)
+Number Field
+A custom field that stores and validates numeric (floating point) input.
+Number
+Radio Buttons
+A list of radio buttons.
+N/A
+Checkboxes
+Choose multiple values using checkboxes.
+Checkboxes
+Select List (single choices)A single select list with a configurable list of options.
+Select List (Single Choice)
+Select List (multiple choices)Choose multiple values in a select list.
+Select List (Multi-Choice)
+Date Picker
+A custom field that stores dates and uses a date picker to view them.
+Date Picker
+Date Time PickerA custom field that stores dates with a time component.
+N/A
+Test case change history
+To migrate Squad test case history to
+Zephyr
+/ Zephyr Essential we need to combine data from the Jira issue history and the “Test Details History” tab.
+From the “Test Details History” tab we need to get data about changes made to Squad test steps.
+From the Jira issue history, we need to get all the data available there.
+After getting the data from both Squad histories we need to sort it based on the time that the change was made. (sort by date and time to get the right order.)
+After sorting the data we import it to
+Zephyr
+/ Zephyr Essential as a separate change event to the test case.
+Test cycles fields
+Squad
+Zephyr
+/ Zephyr Essential
+Version
+Release version
+Name
+Name
+Description
+Description
+Build
+Text custom field
+Environment
+Text custom field
+From
+Test cycle Planned start date
+To
+Test cycle Planned end date
+Test execution fields
+Squad
+Zephyr
+/ Zephyr Essential
+Test execution key/id
+Test execution key/id
+Summary
+Summary
+Description
+Objective
+Execution Status
+Execution Status
+All Execution Statuses - UNEXECUTED, PASS, FAIL, WIP, BLOCKED, Custom
+UNEXECUTED → Not ExecutedWIP → In ProgressPASS → PassFAIL → FailBLOCKED → BlockedCustom → Custom
+Default Status Description
+As Scale’s configuration
+Default Status Color
+As Scale’s configuration
+Custom Status Description
+As Squad’s configuration
+Custom Status Color
+As Squad’s configuration
+Assigned To
+Assigned To
+Defects
+Issues
+Comment
+Comment
+Comment Rich text attachment
+Executed By
+Executed By
+Executed On
+Executed On
+Total Execution Time
+Estimated
+Total Logged Time
+Actual
+Execution Work Flow Status
+N/A
+Component (In Cycle Summary grid)
+Present under Details section
+Label (In Cycle Summary grid)
+Present under Details section
+Attachments
+Attachments
+Execution History
+Not Supported
+Test Details
+Test Script
+Step results Test step
+Test Script Test step
+Step results Test data
+Test Script Test data
+Step results Test result
+Test Script Test result
+Step results Status
+Test Script Status
+All Test Step Results Statuses - UNEXECUTED, PASS, FAIL, WIP, BLOCKED, Custom
+UNEXECUTED → Not ExecutedWIP → In ProgressPASS → PassFAIL → FailBLOCKED → BlockedCustom → Custom
+Step results Comments
+Test Script Actual Result
+Step level Attachments
+Test Script attachments
+Step level custom fields
+Test Script custom fields
+Step results attachments
+Test Script attachments
+Step results defects
+Test Script Issues
+Execution search filters
+N/A
+Test execution custom fields
+Squad
+Zephyr
+/ Zephyr Essential
+Text Field (single line)
+A basic single line text box custom field to allow simple text input.
+Text Field (Single Line)
+Text Field (multi-line)
+A multiline text area custom field to allow input of longer text strings.
+Text Field (Multi-Line)
+Number Field
+A custom field that stores and validates numeric (floating point) input.
+Number
+Radio Buttons
+A list of radio buttons.
+N/A
+Checkboxes
+Choose multiple values using checkboxes.
+Checkbox
+Select List (single choices)
+A single select list with a configurable list of options.
+Select List (Single Choice)
+Select List (multiple choices)
+Choose multiple values in a select list.
+Select List (Multi-Choice)
+Date Picker
+A custom field that stores dates and uses a date picker to view them.
+Date Picker
+Date Time Picker
+A custom field that stores dates with a time component.
+N/A
+Test cycle folder structure
+In Squad, a test cycle is created under a fix version. Fix versions can be in released or in unreleased state and the tree structure to organize test cycles are grouped by it. By default, a fix version named Unscheduled and a test cycle named Ad-hoc for each fix versions is present. Test cycles can have one more level called Test folder under it.
+In
+Zephyr
+/ Zephyr Essential, the folder hierarchy is created first and for each folder test cycles can be created. Folder structure are present for n-levels and fix versions are present as a field for the test cycle.
+For migrating data from Squad to
+Zephyr
+/ Zephyr Essential, the test cycle and folder hierarcy under the fix versions is migrated as the folder structure in
+Zephyr
+/ Zephyr Essential. The executions present for each of these cycles and folders is added by creating a test cycle each under the respective folder node. The test cycle is given a name with the folder name prefix for example, login-cycle. The fix version for these test cycles is added as the fix version field value for the test cycle.
+Ad hoc test cycles executions is migrated to folder named Ad hoc and by creating multiple test cycles with each fix versions added to it.
+API Keys
+Squad
+Zephyr
+/ Zephyr Essential
+API Tokens
+Existing tokens from Squad is not migrated. New api tokens need to be created.
+Test Automation
+Zephyr
+/ Zephyr Essential
+Squad
+Saved configurations
+Since the automation in
+Zephyr
+/ Zephyr Essential is REST API based, the saved automation configurations won’t be applicable.
+Data that will not be migrated
+BDD data
+Test execution audit logs
+Test execution saved filters
+JQL saved filters
+Test steps custom fields change history
+Custom field of type Select list (cascading)
+Custom field of type Label
+Advanced custom fields
+for test cases
+Archived Jira projects
+Archived test cases
+In this section
+:
+Data Transfer
+Test cases fields
+Test case custom fields
+Test case linked issues
+Test case web links
+Test case steps: step, data, and result
+Test case step attachments
+Test case step custom field
+Test case change history
+Test cycles fields
+Test execution fields
+Test execution custom fields
+Test cycle folder structure
+API Keys
+Test Automation
+Data that will not be migrated
+Search results
+No results found
+Prev
+Next
