@@ -11,7 +11,6 @@ During the migration process, the tool first checks whether a project contains a
 Therefore, if such projects contain test cycles or executions but no Squad test cases, those test cycles and executions will not be migrated and may be lost during the migration process.
 
 Migration Scope: 
-
 Zephyr Squad → Zephyr Essential : 
 Supported Data Residency: US
 Migration Scope: Project-level migration or Full migration
@@ -23,8 +22,6 @@ Migration Scope: Project-level migration or Full migration
 AU (Australia)	Data Residency is available, but migration/upgrade not supported yet - Tentatively expected date is 2027 Q2
 DE (Germany)	Data Residency is available, but migration/upgrade not supported yet - Tentatively expected date is 2027 Q2
 
-
-
 Important: Before starting the migration, Zephyr plugin needs to be installed in the Cloud environment and, if it is installed, please verify  whether the Zephyr app contains any existing data.
 In particular, check whether the same project keys are being used for projects in both Zephyr Squad and Zephyr.
 If the same project key exists in both Zephyr Squad and Zephyr, the migration will overwrite the existing Zephyr data in the target project.
@@ -34,9 +31,6 @@ Important Considerations
 Always verify the target Data Residency region before initiating a migration.
 For AU (Australia) and DE (Germany), confirm the latest migration and upgrade support status with the Migration or Product team before proceeding.
 Do not confirm migration support for regions that have not yet been internally validated.
-
-
-
 
 OFFICIAL SMARTBEAR DOCUMENTATION
 
